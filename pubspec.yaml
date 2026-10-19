@@ -1,0 +1,35 @@
+
+name: haxbaby_project
+description: "Pip's Dream World"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  video_player: ^2.14.1
+  audioplayers: ^6.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/pip/
+    - assets/images/videos/
+    - assets/images/pip_video_frames/
+    - assets/images/pip_gaze_transparent/
+    - assets/images/pip_gaze_laugh_base/
+    - assets/audio/smile 2.mp3.mpeg
